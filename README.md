@@ -72,10 +72,16 @@
 # Installation
 
 ```bash
-# ------- DataHub
+# ------- DataHub - Private
 git clone git@github.com:DataHub-Asarad/.github-private.git DataHub && cd DataHub
+
+# ------- DataHub - Public
 git clone git@github.com:DataHub-Asarad/.github.git DataHubPublic
+
+# ------- Manager
 git clone git@github.com:DataHub-Asarad/Manager.git
+
+# ------- Initial
 git clone git@github.com:DataHub-Asarad/Initial.git
 
 # ------- Resources
