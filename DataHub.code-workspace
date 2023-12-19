@@ -6,7 +6,7 @@
 		},
 		{
 			"path": ".",
-			"name": "DataHub"
+			"name": "DataHub",
 		},
 		{
 			"path": "Initial",
@@ -30,5 +30,39 @@
 		},
 		
 	],
-	"settings": {}
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"editor.inlineSuggest.enabled": true,
+		"git.confirmSync": false,
+		"git.enableSmartCommit": true,
+		"github.copilot.enable": {
+			"*": true,
+			"plaintext": false,
+			"markdown": true,
+			"scminput": false,
+			"python": true
+		},
+		"explorer.confirmDelete": false,
+		"jupyter.askForKernelRestart": false,
+		"explorer.confirmDragAndDrop": false,
+		"editor.rulers": [
+			88
+		],
+		"editor.minimap.enabled": false,
+		"git.openRepositoryInParentFolders": "never",
+		"editor.fontSize": 15,
+		"workbench.colorTheme": "Atom One Dark",
+		"[plaintext]": {
+			"editor.unicodeHighlight.ambiguousCharacters": false,
+			"editor.unicodeHighlight.invisibleCharacters": false
+		},
+		"terminal.integrated.enableMultiLinePasteWarning": false,
+		"window.zoomLevel": -1,
+		"files.exclude": {
+			"**/__DeleteLater__": true,
+			"**/__pycache__": true,
+			"**/.git": false,
+			"**/profile": true
+		}
+	}
 }

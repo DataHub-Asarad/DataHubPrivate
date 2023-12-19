@@ -69,7 +69,7 @@
 
 --- 
 
-# Installation
+# Clone
 
 ```bash
 # ------- DataHub - Private
