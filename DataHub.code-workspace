@@ -59,10 +59,8 @@
 		"terminal.integrated.enableMultiLinePasteWarning": false,
 		"window.zoomLevel": -1,
 		"files.exclude": {
-			"**/__DeleteLater__": true,
 			"**/__pycache__": true,
-			"**/.git": false,
-			"**/profile": true
+			"**/profile": true,
 		}
 	}
 }
