@@ -116,12 +116,20 @@ git clone git@github.com:DataHub-Asarad/AI.git
 
 ---
 
-# How to Deploy?
+# Installation
+After Clonnig all the repositories, you should install the product by Manager pipeline:
 ```bash
 echo "alis datahub-ci-cd='source ~/DataHub/Manager/ci-cd.sh'" >> ~/.bashrc
 echo "alis datahub-manual='source ~/DataHub/Manager/manual.sh'" >> ~/.bashrc
 ```
-#### First Deploy / Upgrade
+and then install Initial repository manually:
+```bash
+TODO
+```
+
+---
+
+# How to Deploy? **:)**
 ```bash
 # CI/CD  Deployment
 datahub-ci-cd   
