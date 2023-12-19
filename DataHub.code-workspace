@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "DataHubPublic",
+			"name": "DataHub-public"
+		},
+		{
+			"path": ".",
+			"name": "DataHub"
+		},
+		{
+			"path": "Initial",
+			"name": "Initial"
+		},
+		{
+			"path": "Resources",
+			"name": "Resources"
+		},
+		{
+			"path": "Manager",
+			"name": "Manager"
+		},
+		{
+			"path": "DjangoPrivate",
+			"name": "Django-private"
+		},
+		{
+			"path": "DjangoPublic",
+			"name": "Django-public"
+		},
+		
+	],
+	"settings": {}
+}
