@@ -18,11 +18,11 @@
 		},
 		{
 			"path": "DjangoPrivate",
-			"name": "Django-private"
+			"name": "DjangoPrivate"
 		},
 		{
 			"path": "DjangoPublic",
-			"name": "Django-public"
+			"name": "DjangoPublic"
 		},
 		
 	],
