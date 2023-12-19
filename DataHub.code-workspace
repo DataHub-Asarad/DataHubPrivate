@@ -1,14 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "DataHubPublic",
-			"name": "DataHub-public"
-		},
-		{
-			"path": ".",
-			"name": "DataHub",
-		},
-		{
 			"path": "Initial",
 			"name": "Initial"
 		},
@@ -19,6 +11,10 @@
 		{
 			"path": "Manager",
 			"name": "Manager"
+		},
+		{
+			"path": ".",
+			"name": "DataHub",
 		},
 		{
 			"path": "DjangoPrivate",
