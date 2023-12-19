@@ -55,6 +55,7 @@
 		"terminal.integrated.enableMultiLinePasteWarning": false,
 		"window.zoomLevel": -1,
 		"files.exclude": {
+			"**/.git": false,
 			"**/__pycache__": true,
 			"**/profile": true,
 		}
