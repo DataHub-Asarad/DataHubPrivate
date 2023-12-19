@@ -1,6 +1,6 @@
 <a href="https://ssenerg.com">
     <div style="margin-bottom:1em;"> 
-        <img style="margin-right:-.2em;" align="left" src="https://i.postimg.cc/3xKn9pn6/logo-d.png" title="SSENERG" width="100" height="100"/>
+        <img style="margin-right:-.2em;" align="left" src="https://i.postimg.cc/3wwHhJvM/logo-dh.png" title="SSENERG" width="100" height="100"/>
     </div>
     <div style="margin-bottom:-1.5em;">
         <h1 display="display:inline;">
