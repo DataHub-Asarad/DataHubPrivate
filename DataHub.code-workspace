@@ -4,17 +4,18 @@
 			"path": "Initial",
 			"name": "Initial"
 		},
-		{
-			"path": "Resources",
-			"name": "Resources"
-		},
+		
 		{
 			"path": "Manager",
 			"name": "Manager"
 		},
 		{
 			"path": ".",
-			"name": "DataHub",
+			"name": "DataHub"
+		},
+		{
+			"path": "Resources",
+			"name": "Resources"
 		},
 		{
 			"path": "DjangoPrivate",
@@ -24,6 +25,11 @@
 			"path": "DjangoPublic",
 			"name": "DjangoPublic"
 		},
+		{
+			"path": "DataHubPublic",
+			"name": ".github"
+		},
+		
 		
 	],
 	"settings": {
@@ -39,7 +45,6 @@
 			"python": true
 		},
 		"explorer.confirmDelete": false,
-		"jupyter.askForKernelRestart": false,
 		"explorer.confirmDragAndDrop": false,
 		"editor.rulers": [
 			88
@@ -53,11 +58,13 @@
 			"editor.unicodeHighlight.invisibleCharacters": false
 		},
 		"terminal.integrated.enableMultiLinePasteWarning": false,
-		"window.zoomLevel": -1,
+		"window.zoomLevel": 0,
 		"files.exclude": {
-			"**/.git": false,
+			"**/.git": true,
 			"**/__pycache__": true,
 			"**/profile": true,
+			"**/.DS_Store": true,
+			"**/.vscode": true,
 		}
 	}
 }
