@@ -60,11 +60,11 @@
 		"terminal.integrated.enableMultiLinePasteWarning": false,
 		"window.zoomLevel": 0,
 		"files.exclude": {
-			"**/.git": true,
 			"**/__pycache__": true,
-			"**/profile": true,
 			"**/.DS_Store": true,
+			"**/.git": false,
 			"**/.vscode": true,
+			"**/profile": true
 		}
 	}
 }
