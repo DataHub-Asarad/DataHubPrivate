@@ -58,7 +58,7 @@
 			"editor.unicodeHighlight.invisibleCharacters": false
 		},
 		"terminal.integrated.enableMultiLinePasteWarning": false,
-		"window.zoomLevel": -2,
+		"window.zoomLevel": 0,
 		"files.exclude": {
 			"**/__pycache__": true,
 			"**/.DS_Store": true,
