@@ -58,13 +58,13 @@
 			"editor.unicodeHighlight.invisibleCharacters": false
 		},
 		"terminal.integrated.enableMultiLinePasteWarning": false,
-		"window.zoomLevel": 0,
+		"window.zoomLevel": -1,
 		"files.exclude": {
 			"**/__pycache__": true,
 			"**/.DS_Store": true,
 			"**/.git": false,
 			"**/.vscode": true,
-			"**/profile": true
+			
 		}
 	}
 }

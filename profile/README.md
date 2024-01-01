@@ -31,7 +31,8 @@
   │
   ├── Resources
   │   ├── Kerberos 
-  │   ├── CertManager 
+  │   ├── CertManager
+  │   ├── IngressNginx
   │   ├── NatsJetstream 
   │   ├── ELK 
   │   ├── LDAP 
