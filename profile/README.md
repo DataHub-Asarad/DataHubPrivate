@@ -89,6 +89,7 @@ git clone git@github.com:DataHub-Asarad/Initial.git
 git clone git@github.com:DataHub-Asarad/Resources.git && cd Resources
 git clone git@github.com:DataHub-Asarad/Kerberos.git
 git clone git@github.com:DataHub-Asarad/CertManager.git
+git clone git@github.com:DataHub-Asarad/IngressNginx.git
 git clone git@github.com:DataHub-Asarad/NatsJetstream.git
 git clone git@github.com:DataHub-Asarad/ELK.git
 git clone git@github.com:DataHub-Asarad/LDAP.git
