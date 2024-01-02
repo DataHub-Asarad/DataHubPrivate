@@ -65,6 +65,7 @@
 			"**/.git": false,
 			"**/.vscode": true,
 			
-		}
+		},
+		"CodeGPT.Autocomplete.enabled": true
 	}
 }
