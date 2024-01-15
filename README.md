@@ -19,36 +19,39 @@
 #### DataHub directory
 ```
   │
-  ├── Manager 
+  ├── Manager
+  │   ├── ci-cd.sh
+  │   ├── manual.sh
+  |   └── ...
   │
   ├── Initial 
-  │   ├── DynamicProvisioning
-  │   │   ├── Ceph
-  │   │   └── StorageClass
-  │   └── Routing
-  │       ├── Calico
-  │       └── Tigera
+  │   └── DynamicProvisioning
+  │       ├── Ceph
+  │       └── StorageClass
   │
   ├── Resources
-  │   ├── Kerberos 
-  │   ├── CertManager
-  │   ├── IngressNginx
-  │   ├── NatsJetstream 
-  │   ├── ELK 
-  │   ├── LDAP 
-  │   ├── PostgresDB 
-  │   ├── Prometheus 
-  │   └── QuestDB 
+  |   ├── Routing
+  |   ├── CertManager
+  |   ├── MetalLb
+  |   ├── ExternalDNS
+  |   ├── IngressNginx
+  |   ├── MariaGalera
+  |   ├── Quest
+  |   ├── NatsJetstream
+  |   ├── LDAP
+  |   ├── Kerberos
+  |   ├── Prometheus
+  |   └── ELK
   │
   ├── DjangoPrivate
   │   ├── Updater
   │   ├── Producer 
   │   ├── Consumer 
   │   ├── CoreFeaturesLab 
-  │   └── CoreEngine 
+  │   ├── CoreEngine
+  |   └── PlayGround
   │
   └── DjangoPublic
-      ├── ImPanel 
       ├── MyPanel 
       ├── Provider 
       ├── BackTester 
@@ -87,27 +90,30 @@ git clone git@github.com:DataHub-Asarad/Initial.git
 
 # ------- Resources
 git clone git@github.com:DataHub-Asarad/Resources.git && cd Resources
-git clone git@github.com:DataHub-Asarad/Kerberos.git
+git clone git@github.com:DataHub-Asarad/Routing.git
 git clone git@github.com:DataHub-Asarad/CertManager.git
+git clone git@github.com:DataHub-Asarad/MetalLb.git
+git clone git@github.com:DataHub-Asarad/ExternalDNS.git
 git clone git@github.com:DataHub-Asarad/IngressNginx.git
+git clone git@github.com:DataHub-Asarad/MariaGalera.git
+git clone git@github.com:DataHub-Asarad/Quest.git
 git clone git@github.com:DataHub-Asarad/NatsJetstream.git
-git clone git@github.com:DataHub-Asarad/ELK.git
 git clone git@github.com:DataHub-Asarad/LDAP.git
-git clone git@github.com:DataHub-Asarad/PostgresDB.git
+git clone git@github.com:DataHub-Asarad/Kerberos.git
 git clone git@github.com:DataHub-Asarad/Prometheus.git
-git clone git@github.com:DataHub-Asarad/QuestDB.git
+git clone git@github.com:DataHub-Asarad/ELK.git
 
 # ------- Django - Private
-git clone git@github.com:DataHub-Asarad/DjangoPrivate.git && cd DjangoPrivate
+git clone git@github.com:DataHub-Asarad/DjangoPrivate.git && cd ../DjangoPrivate
 git clone git@github.com:DataHub-Asarad/Updater.git
 git clone git@github.com:DataHub-Asarad/Producer.git
 git clone git@github.com:DataHub-Asarad/Consumer.git
 git clone git@github.com:DataHub-Asarad/CoreFeaturesLab.git
 git clone git@github.com:DataHub-Asarad/CoreEngine.git
+git clone git@github.com:DataHub-Asarad/PlayGround.git
 
 # ------- Django - Public
-git clone git@github.com:DataHub-Asarad/DjangoPublic.git && cd DjangoPublic
-git clone git@github.com:DataHub-Asarad/ImPanel.git
+git clone git@github.com:DataHub-Asarad/DjangoPublic.git && cd ../DjangoPublic
 git clone git@github.com:DataHub-Asarad/MyPanel.git
 git clone git@github.com:DataHub-Asarad/Provider.git
 git clone git@github.com:DataHub-Asarad/BackTester.git
@@ -121,8 +127,8 @@ git clone git@github.com:DataHub-Asarad/AI.git
 # Installation
 After Clonnig all the repositories, you should install the product by Manager pipeline:
 ```bash
-echo "alis datahub-ci-cd='source ~/DataHub/Manager/ci-cd.sh'" >> ~/.bashrc
-echo "alis datahub-manual='source ~/DataHub/Manager/manual.sh'" >> ~/.bashrc
+echo "alis cicd='source ~/DataHub/Manager/ci-cd.sh'" >> ~/.bashrc
+echo "alis manual='source ~/DataHub/Manager/manual.sh'" >> ~/.bashrc
 ```
 and then install Initial repository manually:
 ```bash
@@ -134,7 +140,7 @@ TODO
 # How to Deploy? **:)**
 ```bash
 # CI/CD  Deployment
-datahub-ci-cd   
+cicd   
 # Manual Deployment
-datahub-manual
+manual
 ```
