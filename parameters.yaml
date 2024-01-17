@@ -1,0 +1,5 @@
+private-image-registry:
+  url: https://ghcr.io
+  username: ssenerg
+  organization: datahub-asarad
+  email: amirhossein.pdn@gmail.com
